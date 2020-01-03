@@ -1,0 +1,20 @@
+{
+    "config": {
+        "Sites": ["https://www.realclearpolitics.com/", "https://www.realclearpolitics.com/epolls/latest_polls/"]
+    },
+    "colly": {
+        "MaxDepth": 1,
+        "AllowedDomains": ["https://www.realclearpolitics.com/", "www.realclearpolitics.com"]
+    },
+    "scraper": {
+        // "title": "head title",
+        // // "name": "td.name",
+        // // "score": "tr td.score",
+        // // "all_races": ".polls_header_2_dropdown .quick_links_content .link_section .link a[href]"
+        // "race": "tr > td.lp-race",
+        "race_url": {
+            "selector": "tr > td.lp-race > a[href]",
+            "value": "text"
+        }
+    }
+}
