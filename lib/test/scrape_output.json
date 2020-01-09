@@ -1,0 +1,772 @@
+{
+    "races": [
+    {
+        "name": "New Hampshire Democratic Presidential Primary",
+        "url": "/epolls/2020/president/nh/new_hampshire_democratic_presidential_primary-6276.html"
+    },
+    {
+        "name": "Michigan: Trump vs. Biden",
+        "url": "/epolls/2020/president/mi/michigan_trump_vs_biden-6761.html"
+    },
+    {
+        "name": "Michigan: Trump vs. Sanders",
+        "url": "/epolls/2020/president/mi/michigan_trump_vs_sanders-6768.html"
+    },
+    {
+        "name": "Michigan: Trump vs. Warren",
+        "url": "/epolls/2020/president/mi/michigan_trump_vs_warren-6769.html"
+    },
+    {
+        "name": "Michigan: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/mi/michigan_trump_vs_buttigieg-6909.html"
+    },
+    {
+        "name": "Michigan: Trump vs. Bloomberg",
+        "url": "/epolls/2020/president/mi/michigan_trump_vs_bloomberg-6997.html"
+    },
+    {
+        "name": "Georgia: Trump vs. Biden",
+        "url": "/epolls/2020/president/ga/georgia_trump_vs_biden-6974.html"
+    },
+    {
+        "name": "Georgia: Trump vs. Sanders",
+        "url": "/epolls/2020/president/ga/georgia_trump_vs_sanders-6979.html"
+    },
+    {
+        "name": "Georgia: Trump vs. Warren",
+        "url": "/epolls/2020/president/ga/georgia_trump_vs_warren-6975.html"
+    },
+    {
+        "name": "Georgia: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/ga/georgia_trump_vs_buttigieg-6976.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "Arizona: Trump vs. Biden",
+        "url": "/epolls/2020/president/az/arizona_trump_vs_biden-6807.html"
+    },
+    {
+        "name": "Arizona: Trump vs. Sanders",
+        "url": "/epolls/2020/president/az/arizona_trump_vs_sanders-6808.html"
+    },
+    {
+        "name": "Arizona: Trump vs. Warren",
+        "url": "/epolls/2020/president/az/arizona_trump_vs_warren-6810.html"
+    },
+    {
+        "name": "Arizona: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/az/arizona_trump_vs_buttigieg-6895.html"
+    },
+    {
+        "name": "Iowa: Trump vs. Biden",
+        "url": "/epolls/2020/president/ia/iowa_trump_vs_biden-6787.html"
+    },
+    {
+        "name": "Iowa: Trump vs. Sanders",
+        "url": "/epolls/2020/president/ia/iowa_trump_vs_sanders-6788.html"
+    },
+    {
+        "name": "Iowa: Trump vs. Warren",
+        "url": "/epolls/2020/president/ia/iowa_trump_vs_warren-6789.html"
+    },
+    {
+        "name": "Iowa: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/ia/iowa_trump_vs_buttigieg-6971.html"
+    },
+    {
+        "name": "Arizona Senate - McSally vs. Kelly",
+        "url": "/epolls/2020/senate/az/arizona_senate_mcsally_vs_kelly-6801.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "2020 Generic Congressional Vote",
+        "url": "/epolls/other/2020_generic_congressional_vote-6722.html"
+    },
+    {
+        "name": "Congressional Job Approval",
+        "url": "/epolls/other/congressional_job_approval-903.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "New Mexico Democratic Presidential Primary",
+        "url": "/epolls/2020/president/nm/new_mexico_democratic_presidential_primary-6992.html"
+    },
+    {
+        "name": "New Mexico: Trump vs. Biden",
+        "url": "/epolls/2020/president/nm/new_mexico_trump_vs_biden-6993.html"
+    },
+    {
+        "name": "New Mexico: Trump vs. Sanders",
+        "url": "/epolls/2020/president/nm/new_mexico_trump_vs_sanders-6994.html"
+    },
+    {
+        "name": "New Mexico: Trump vs. Warren",
+        "url": "/epolls/2020/president/nm/new_mexico_trump_vs_warren-6995.html"
+    },
+    {
+        "name": "New Mexico: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/nm/new_mexico_trump_vs_buttigieg-6996.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "Iowa Democratic Presidential Caucus",
+        "url": "/epolls/2020/president/ia/iowa_democratic_presidential_caucus-6731.html"
+    },
+    {
+        "name": "New Hampshire Democratic Presidential Primary",
+        "url": "/epolls/2020/president/nh/new_hampshire_democratic_presidential_primary-6276.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "2020 Generic Congressional Vote",
+        "url": "/epolls/other/2020_generic_congressional_vote-6722.html"
+    },
+    {
+        "name": "Congressional Job Approval",
+        "url": "/epolls/other/congressional_job_approval-903.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "Florida: Trump vs. Biden",
+        "url": "/epolls/2020/president/fl/florida_trump_vs_biden-6841.html"
+    },
+    {
+        "name": "Florida: Trump vs. Sanders",
+        "url": "/epolls/2020/president/fl/florida_trump_vs_sanders-6842.html"
+    },
+    {
+        "name": "Florida: Trump vs. Warren",
+        "url": "/epolls/2020/president/fl/florida_trump_vs_warren-6844.html"
+    },
+    {
+        "name": "Florida: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/fl/florida_trump_vs_buttigieg-6906.html"
+    },
+    {
+        "name": "Virginia: Trump vs. Biden",
+        "url": "/epolls/2020/president/va/virginia_trump_vs_biden-6988.html"
+    },
+    {
+        "name": "Virginia: Trump vs. Sanders",
+        "url": "/epolls/2020/president/va/virginia_trump_vs_sanders-6989.html"
+    },
+    {
+        "name": "Virginia: Trump vs. Warren",
+        "url": "/epolls/2020/president/va/virginia_trump_vs_warren-6990.html"
+    },
+    {
+        "name": "Virginia: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/va/virginia_trump_vs_buttigieg-6991.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "2020 Generic Congressional Vote",
+        "url": "/epolls/other/2020_generic_congressional_vote-6722.html"
+    },
+    {
+        "name": "Congressional Job Approval",
+        "url": "/epolls/other/congressional_job_approval-903.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "General Election: Trump vs. Biden",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_biden-6247.html"
+    },
+    {
+        "name": "General Election: Trump vs. Sanders",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_sanders-6250.html"
+    },
+    {
+        "name": "General Election: Trump vs. Warren",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_warren-6251.html"
+    },
+    {
+        "name": "General Election: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_buttigieg-6872.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "Iowa Democratic Presidential Caucus",
+        "url": "/epolls/2020/president/ia/iowa_democratic_presidential_caucus-6731.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "2020 Generic Congressional Vote",
+        "url": "/epolls/other/2020_generic_congressional_vote-6722.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "General Election: Trump vs. Biden",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_biden-6247.html"
+    },
+    {
+        "name": "General Election: Trump vs. Sanders",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_sanders-6250.html"
+    },
+    {
+        "name": "General Election: Trump vs. Warren",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_warren-6251.html"
+    },
+    {
+        "name": "General Election: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_buttigieg-6872.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "2020 Generic Congressional Vote",
+        "url": "/epolls/other/2020_generic_congressional_vote-6722.html"
+    },
+    {
+        "name": "Congressional Job Approval",
+        "url": "/epolls/other/congressional_job_approval-903.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "General Election: Trump vs. Biden",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_biden-6247.html"
+    },
+    {
+        "name": "General Election: Trump vs. Sanders",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_sanders-6250.html"
+    },
+    {
+        "name": "General Election: Trump vs. Warren",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_warren-6251.html"
+    },
+    {
+        "name": "General Election: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_buttigieg-6872.html"
+    },
+    {
+        "name": "General Election: Trump vs. Bloomberg",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_bloomberg-6797.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "California Democratic Primary",
+        "url": "/epolls/2020/president/ca/california_democratic_primary-6879.html"
+    },
+    {
+        "name": "General Election: Trump vs. Biden",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_biden-6247.html"
+    },
+    {
+        "name": "General Election: Trump vs. Sanders",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_sanders-6250.html"
+    },
+    {
+        "name": "General Election: Trump vs. Warren",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_warren-6251.html"
+    },
+    {
+        "name": "General Election: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_buttigieg-6872.html"
+    },
+    {
+        "name": "General Election: Trump vs. Bloomberg",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_bloomberg-6797.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "General Election: Trump vs. Biden",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_biden-6247.html"
+    },
+    {
+        "name": "General Election: Trump vs. Sanders",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_sanders-6250.html"
+    },
+    {
+        "name": "General Election: Trump vs. Warren",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_warren-6251.html"
+    },
+    {
+        "name": "General Election: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_buttigieg-6872.html"
+    },
+    {
+        "name": "General Election: Trump vs. Bloomberg",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_bloomberg-6797.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "Congressional Job Approval",
+        "url": "/epolls/other/congressional_job_approval-903.html"
+    },
+    {
+        "name": "South Carolina Democratic Presidential Primary",
+        "url": "/epolls/2020/president/sc/south_carolina_democratic_presidential_primary-6824.html"
+    },
+    {
+        "name": "California Democratic Primary",
+        "url": "/epolls/2020/president/ca/california_democratic_primary-6879.html"
+    },
+    {
+        "name": "Texas Democratic Primary",
+        "url": "/epolls/2020/president/tx/texas_democratic_primary-6875.html"
+    },
+    {
+        "name": "Wisconsin Democratic Primary",
+        "url": "/epolls/2020/president/wi/wisconsin_democratic_primary-6848.html"
+    },
+    {
+        "name": "Wisconsin: Trump vs. Biden",
+        "url": "/epolls/2020/president/wi/wisconsin_trump_vs_biden-6849.html"
+    },
+    {
+        "name": "Wisconsin: Trump vs. Sanders",
+        "url": "/epolls/2020/president/wi/wisconsin_trump_vs_sanders-6850.html"
+    },
+    {
+        "name": "Wisconsin: Trump vs. Warren",
+        "url": "/epolls/2020/president/wi/wisconsin_trump_vs_warren-6852.html"
+    },
+    {
+        "name": "Wisconsin: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/wi/wisconsin_trump_vs_buttigieg-6970.html"
+    },
+    {
+        "name": "Wisconsin: Trump vs. Booker",
+        "url": "/epolls/2020/president/wi/wisconsin_trump_vs_booker-6982.html"
+    },
+    {
+        "name": "Texas: Trump vs. Biden",
+        "url": "/epolls/2020/president/tx/texas_trump_vs_biden-6818.html"
+    },
+    {
+        "name": "Texas: Trump vs. Sanders",
+        "url": "/epolls/2020/president/tx/texas_trump_vs_sanders-6819.html"
+    },
+    {
+        "name": "Texas: Trump vs. Warren",
+        "url": "/epolls/2020/president/tx/texas_trump_vs_warren-6821.html"
+    },
+    {
+        "name": "Texas: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/tx/texas_trump_vs_buttigieg-6886.html"
+    },
+    {
+        "name": "California: Trump vs. Biden",
+        "url": "/epolls/2020/president/ca/california_trump_vs_biden-6755.html"
+    },
+    {
+        "name": "California: Trump vs. Sanders",
+        "url": "/epolls/2020/president/ca/california_trump_vs_sanders-6880.html"
+    },
+    {
+        "name": "California: Trump vs. Warren",
+        "url": "/epolls/2020/president/ca/california_trump_vs_warren-6756.html"
+    },
+    {
+        "name": "California: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/ca/california_trump_vs_buttigieg-6937.html"
+    },
+    {
+        "name": "Iowa Democratic Presidential Caucus",
+        "url": "/epolls/2020/president/ia/iowa_democratic_presidential_caucus-6731.html"
+    },
+    {
+        "name": "New Hampshire Democratic Presidential Primary",
+        "url": "/epolls/2020/president/nh/new_hampshire_democratic_presidential_primary-6276.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "Iowa: Trump vs. Biden",
+        "url": "/epolls/2020/president/ia/iowa_trump_vs_biden-6787.html"
+    },
+    {
+        "name": "Iowa: Trump vs. Sanders",
+        "url": "/epolls/2020/president/ia/iowa_trump_vs_sanders-6788.html"
+    },
+    {
+        "name": "Iowa: Trump vs. Warren",
+        "url": "/epolls/2020/president/ia/iowa_trump_vs_warren-6789.html"
+    },
+    {
+        "name": "Iowa: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/ia/iowa_trump_vs_buttigieg-6971.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "Congressional Job Approval",
+        "url": "/epolls/other/congressional_job_approval-903.html"
+    },
+    {
+        "name": "Congressional Job Approval",
+        "url": "/epolls/other/congressional_job_approval-903.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "2020 Generic Congressional Vote",
+        "url": "/epolls/other/2020_generic_congressional_vote-6722.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "General Election: Trump vs. Biden",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_biden-6247.html"
+    },
+    {
+        "name": "General Election: Trump vs. Sanders",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_sanders-6250.html"
+    },
+    {
+        "name": "General Election: Trump vs. Warren",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_warren-6251.html"
+    },
+    {
+        "name": "General Election: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_buttigieg-6872.html"
+    },
+    {
+        "name": "General Election: Trump vs. Bloomberg",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_bloomberg-6797.html"
+    },
+    {
+        "name": "General Election: Trump vs. Klobuchar",
+        "url": "/epolls/2020/president/us/general_election_trump_vs_klobuchar-6803.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "Congressional Job Approval",
+        "url": "/epolls/other/congressional_job_approval-903.html"
+    },
+    {
+        "name": "Arizona: Trump vs. Biden",
+        "url": "/epolls/2020/president/az/arizona_trump_vs_biden-6807.html"
+    },
+    {
+        "name": "Arizona: Trump vs. Sanders",
+        "url": "/epolls/2020/president/az/arizona_trump_vs_sanders-6808.html"
+    },
+    {
+        "name": "Arizona: Trump vs. Warren",
+        "url": "/epolls/2020/president/az/arizona_trump_vs_warren-6810.html"
+    },
+    {
+        "name": "Arizona: Trump vs. Buttigieg",
+        "url": "/epolls/2020/president/az/arizona_trump_vs_buttigieg-6895.html"
+    },
+    {
+        "name": "Arizona: Trump vs. Bloomberg",
+        "url": "/epolls/2020/president/az/arizona_trump_vs_bloomberg-6986.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "Arizona Senate - McSally vs. Kelly",
+        "url": "/epolls/2020/senate/az/arizona_senate_mcsally_vs_kelly-6801.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "California Democratic Primary",
+        "url": "/epolls/2020/president/ca/california_democratic_primary-6879.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "President Trump Job Approval",
+        "url": "/epolls/other/president_trump_job_approval-6179.html"
+    },
+    {
+        "name": "2020 Generic Congressional Vote",
+        "url": "/epolls/other/2020_generic_congressional_vote-6722.html"
+    },
+    {
+        "name": "Congressional Job Approval",
+        "url": "/epolls/other/congressional_job_approval-903.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "Congressional Job Approval",
+        "url": "/epolls/other/congressional_job_approval-903.html"
+    },
+    {
+        "name": "2020 Democratic Presidential Nomination",
+        "url": "/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html"
+    },
+    {
+        "name": "Direction of Country",
+        "url": "/epolls/other/direction_of_country-902.html"
+    }
+]
+}

@@ -1,0 +1,9 @@
+{
+  "scraper": {
+    "title": "head title",
+    "name": "td.name",
+    "score": "tr td.score",
+    "all_races": ".polls_header_2_dropdown .quick_links_content .link_section .link a[href]",
+    "race": "tr > td.lp-race"
+  }
+}

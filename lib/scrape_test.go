@@ -1,10 +1,23 @@
 package lib
 
 import (
+	"github.com/json-iterator/go"
 	"io/ioutil"
+	"path"
+	"path/filepath"
 	"testing"
-	"github.com/yosuke-furukawa/json5/encoding/json5"
+	"runtime"
 )
+
+var json = jsoniter.ConfigCompatibleWithStandardLibrary
+
+
+
+var (
+	_, b, _, _ = runtime.Caller(0)
+	basepath   = filepath.Dir(b)
+)
+
 
 func TestScrape(t *testing.T) {
 	data, err := ioutil.ReadFile("./test/scrape_rcp.json")
@@ -12,8 +25,8 @@ func TestScrape(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	parsed := JSONSpec{}
-	err = json5.Unmarshal(data, &parsed)
+	parsed := Config{}
+	err = json.Unmarshal(data, &parsed)
 	if err != nil {
 		t.Error("failed to parse json", err)
 	}
@@ -24,8 +37,17 @@ func TestScrape(t *testing.T) {
 	}
 
 	d, e := s.Scrape()
-	t.Log(d)
 	if e != nil {
-		t.Error("failed to initialize scraper", e)
+		t.Error("failed to get results", e)
+	}
+
+	b, err := json.MarshalIndent(d, "", "    ")
+	t.Log(string(b))
+
+	filepath := path.Join(basepath, "./test/scrape_output.json")
+	t.Log(filepath)
+	err = ioutil.WriteFile(filepath, b, 0644)
+	if err != nil {
+		t.Error("failed to write output file", err)
 	}
 }
