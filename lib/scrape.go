@@ -1,10 +1,9 @@
 package lib
 
 import (
-	"strings"
-
-	"github.com/gocolly/colly"
+	colly "github.com/gocolly/colly/v2"
 	"github.com/imdario/mergo"
+	"strings"
 )
 
 // Scraper represents a web scraper
@@ -80,8 +79,8 @@ type ScrapeConfig map[string]datum
 
 // A datum represents a single element selected via a selector
 type datum struct {
-	Selector string `json:"selector,omitempty"`
-	Values ValueMap `json:"values,omitempty"`
+	Selector string   `json:"selector,omitempty"`
+	Values   ValueMap `json:"values,omitempty"`
 }
 
 // Value represents the available values to access from the selected elements
