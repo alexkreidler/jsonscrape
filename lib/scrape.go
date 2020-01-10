@@ -1,8 +1,11 @@
 package lib
 
 import (
+	"fmt"
 	colly "github.com/gocolly/colly/v2"
 	"github.com/imdario/mergo"
+	"io/ioutil"
+	"log"
 	"strings"
 )
 
@@ -15,14 +18,16 @@ type Scraper struct {
 
 // Config represents the JSON file specification of the scraper. It includes general settings, colly specific settings, and the raw scraper spec
 type Config struct {
-	GeneralConfig `json:"config"`
-	CollyConfig   colly.Collector `json:"colly"`
-	ScrapeConfig  `json:"scraper"`
+	GeneralConfig GeneralConfig   `json:"config" mapstructure:"config"`
+	CollyConfig   colly.Collector `json:"colly" mapstructure:"colly"`
+	ScrapeConfig  ScrapeConfig    `json:"scraper" mapstructure:"scraper"`
 }
 
 // GeneralConfig contains the general configuration for jsonscrape
 type GeneralConfig struct {
 	Sites []string
+	// This logger enables logging
+	Logger *log.Logger `json:"-"`
 }
 
 // JSON represents a JSON input
@@ -38,6 +43,14 @@ func NewScraper(config Config) (Scraper, error) {
 		return Scraper{}, err
 	}
 
+	if config.GeneralConfig.Logger == nil {
+		l := log.Logger{}
+		l.SetOutput(ioutil.Discard)
+		config.GeneralConfig.Logger = &l
+		fmt.Println("using craplogger")
+	}
+	config.GeneralConfig.Logger.Println("using logger")
+
 	return Scraper{
 		Config:    config,
 		Collector: c,
@@ -45,7 +58,7 @@ func NewScraper(config Config) (Scraper, error) {
 }
 
 // Maps are passed by reference
-func updateData(d Results, scrapeValues ValueMap, scrapeName string) func(e *colly.HTMLElement) {
+func (s *Scraper) updateData(d Results, scrapeValues ValueMap, scrapeName string) func(e *colly.HTMLElement) {
 	return func(e *colly.HTMLElement) {
 		vm := ValueMap{}
 
@@ -61,6 +74,7 @@ func updateData(d Results, scrapeValues ValueMap, scrapeName string) func(e *col
 
 			vm[outName] = val
 		}
+		s.Config.GeneralConfig.Logger.Println("got:", vm)
 		// naive way: just append to the slice. this may not be concurrency safe
 		// in the future, Result will proably be a channel allowing different pages on the site which are accessed
 		// at a later time to add more and more matches for the same selector
@@ -100,19 +114,20 @@ type Results map[string][]ValueMap
 
 // Scrape runs the scraper as specified. It returns the data retrieved and/or an error from the scraping process
 // It also will block until the scraper has stopped entirely
-func (s *Scraper) Scrape() (interface{}, error) {
-	c := s.Collector
+func (s *Scraper) Scrape() (Results, error) {
+	s.Config.GeneralConfig.Logger.Println("starting to scrape")
 
+	c := s.Collector
 	results := Results{}
 
 	// k and v are pass by reference in loops, except across function calls, so we extract to the updateData function
 	for k, v := range s.Config.ScrapeConfig {
-		//fmt.Println("setting up:", k, v)
-		c.OnHTML(v.Selector, updateData(results, v.Values, k))
+		s.Config.GeneralConfig.Logger.Println("setting up:", k, v)
+		c.OnHTML(v.Selector, s.updateData(results, v.Values, k))
 	}
 
 	for _, site := range s.Config.GeneralConfig.Sites {
-		//fmt.Println("\nsetting up site:", site)
+		s.Config.GeneralConfig.Logger.Println("setting up site:", site)
 		if err := c.Visit(site); err != nil {
 			return nil, err
 		}
